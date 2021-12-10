@@ -87,7 +87,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="">
+      <header id="header" data-behavior="1">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="/" aria-label="">Timothy Lu</a>
@@ -95,7 +95,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="">
+      <nav id="sidebar" data-behavior="1">
   <div class="sidebar-container">
     
     <ul class="sidebar-buttons">
@@ -155,7 +155,7 @@
 
       
 
-      <div id="main" data-behavior=""
+      <div id="main" data-behavior="1"
         class="
                hasCoverMetaIn
                ">
@@ -164,10 +164,18 @@
           
           
             
+  
+    
+      
+        
+      
+    
+  
+
 
   
 
-<article class="postShorten postShorten--thumbnailimg-bottom">
+<article class="postShorten postShorten--thumbnailimg-right">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -252,9 +260,17 @@
     
 
     
+  
+    
+      <div id="cover" style="background-image:url('https://timothyxlu.github.io/images/cover.jpg');"></div>
+    
+  
+
 
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -262,6 +278,18 @@
 <script src="https://timothyxlu.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
 
 
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
 
 
 
