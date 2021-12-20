@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://timothyxlu.github.io/post/what-do-we-know-about-e-cny/</loc>
-  </url><url>
     <loc>https://timothyxlu.github.io/archives/</loc>
   </url><url>
     <loc>https://timothyxlu.github.io/categories/</loc>
@@ -13,5 +11,7 @@
     <loc>https://timothyxlu.github.io/tags/</loc>
   </url><url>
     <loc>https://timothyxlu.github.io/</loc>
+  </url><url>
+    <loc>https://timothyxlu.github.io/post/what-do-we-know-about-e-cny/</loc>
   </url>
 </urlset>
