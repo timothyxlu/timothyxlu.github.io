@@ -13,7 +13,7 @@
       <pubDate>Sun, 19 Dec 2021 05:00:00 +0000</pubDate>
       
       <guid>https://timothyxlu.github.io/post/what-do-we-know-about-e-cny/</guid>
-      <description>TL;DR: e-CNY&amp;rsquo;s ledger is probably not based on blockchain, but it learned something from UTXO, lightning  network etc.</description>
+      <description>Based on my understanding of a recent white paper and previous patents, I wish to describe how China&amp;rsquo;s central-bank-digital-cash, dubbed as e-CNY, is designed functionally and technically in a more plain language.</description>
     </item>
     
   </channel>
